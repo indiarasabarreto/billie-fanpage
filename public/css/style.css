@@ -73,3 +73,22 @@ img {
     font-size: 14px;
     color: #f1e7d671;
 }
+
+@media (min-width: 786px) {
+    .bg-header {
+      grid-template-columns: auto 1fr auto;
+      grid-gap: 1rem;
+      align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+      flex-direction: column;
+      padding: 2rem 2rem !important;
+    }
+  
+    .card-content {
+      padding: 0 !important;
+    }
+}
