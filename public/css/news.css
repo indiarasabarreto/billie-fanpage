@@ -26,3 +26,30 @@
     font-size: 18px;
     color: #f1e7d6bb;
 }
+
+@media only screen and (max-device-width: 900px) {
+    .news, 
+    .wlcm-txt,
+    .doc-news,
+    .footer-page { 
+        width:100%; 
+    }
+}
+
+@media only screen and (max-device-width: 900px) {
+    .news, 
+    .wlcm-txt,
+    .doc-news,
+    .footer-page {
+         width:600px; 
+    }
+}
+
+@media only screen and (max-device-width: 700px) {
+    .news, 
+    .wlcm-txt,
+    .doc-news,
+    .footer-page {
+         width:400px; 
+    }
+}

@@ -74,21 +74,25 @@ img {
     color: #f1e7d671;
 }
 
-/* @media (min-width: 786px) {
-    .bg-header {
-      grid-template-columns: auto 1fr auto;
-      grid-gap: 1rem;
-      align-items: center;
+@media only screen and (max-device-width: 900px) {
+    .bg-header, 
+    .home-page { 
+        width:100%; 
     }
 }
 
-@media (max-width: 600px) {
-    .card {
-      flex-direction: column;
-      padding: 2rem 2rem !important;
+@media only screen and (max-device-width: 900px) {
+    .bg-header,
+    .home-page,
+    .footer-page {
+         width:600px; 
     }
-  
-    .card-content {
-      padding: 0 !important;
+}
+
+@media only screen and (max-device-width: 700px) {
+    .bg-header,
+    .home-page,
+    .footer-page {
+         width:400px; 
     }
-} */
+}
