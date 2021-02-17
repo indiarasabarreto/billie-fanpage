@@ -74,7 +74,7 @@ img {
     color: #f1e7d671;
 }
 
-@media (min-width: 786px) {
+/* @media (min-width: 786px) {
     .bg-header {
       grid-template-columns: auto 1fr auto;
       grid-gap: 1rem;
@@ -91,4 +91,4 @@ img {
     .card-content {
       padding: 0 !important;
     }
-}
+} */
