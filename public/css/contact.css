@@ -1,0 +1,35 @@
+.colors {
+    color: #000;
+    color: #191919;
+    color: #191919cb;
+    color: #886F4A;
+    color: #f1e7d671;
+}
+
+.contact-form label {
+    font-family: sans-serif;
+    color: #886F4A !important;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    border: 1px solid #f1e7d671;
+    background-color: transparent !important;
+}
+
+.contact-form button {
+    color: #191919cb !important;
+    background-color: #886F4A !important; 
+}
+
+.contact-form button:hover {
+    background-color: #886f4a7e !important;
+}
+
+.text-color,
+.footer-page span, i {
+    font-size: 13px;
+    text-decoration: none;
+    color: #f1e7d671;
+}
+
