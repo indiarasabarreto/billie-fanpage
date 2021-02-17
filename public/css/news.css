@@ -27,7 +27,7 @@
     color: #f1e7d6bb;
 }
 
-@media only screen and (max-device-width: 900px) {
+/* @media only screen and (max-device-width: 900px) {
     .news, 
     .wlcm-txt,
     .doc-news,
@@ -52,4 +52,4 @@
     .footer-page {
          width:400px; 
     }
-}
+} */
